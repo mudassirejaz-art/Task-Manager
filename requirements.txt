@@ -1,0 +1,10 @@
+fastapi>=0.95
+uvicorn[standard]>=0.22
+sqlmodel>=0.0.8
+redis>=4.5   # async redis (no aioredis needed)
+python-dotenv
+aiofiles      # for static file handling if needed
+httpx         # for API tests
+pytest
+pytest-asyncio
+aiosqlite     # async sqlite driver
